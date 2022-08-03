@@ -1,0 +1,39 @@
+section {
+position: relative;
+height: auto;
+width: 100%;
+background: #2B2B2B;
+color: #fff;
+overflow: hidden;
+}
+	section .proyecto {
+	position: relative;
+	float: left;
+	width: calc(100%/2.3);
+	height: 80vh;
+	padding: 0 3vh;
+	margin: 0 3vw;
+	}
+		section .proyecto p {
+		margin: 2vh 0;
+		padding: 2vh;
+		}
+		section .proyecto .tittle {
+		text-align: center;
+		font-size: 1.8vw;
+		color: #C6A47E;
+		text-transform: uppercase;
+		font-weight: bold;
+		}
+		section .proyecto div {
+		position: relative;
+		overflow: hidden;
+		height: 40vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		}
+		section .proyecto img {
+		height: 100%;
+		border-radius: 15px;
+		}

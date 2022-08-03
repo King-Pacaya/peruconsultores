@@ -1,0 +1,41 @@
+section {
+position: relative;
+width: 100%;
+height: 140vh;
+background: #2B2B2B;
+color: #fff;
+font-family: 'Montserrat', sans-serif;
+}
+	section .servicio {
+	position: relative;
+	float: left;
+	width: calc(100%/3);
+	height: 70vh;
+	padding: 0 3vw;
+	}
+	section .servicio div {
+	overflow: hidden;
+	width: 100%;
+	height: 15vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+	section .servicio img {
+	height: 70%;
+	filter: invert(100%);
+	}
+	section .servicio p {
+	margin: 2vh 0;
+	}
+	section .servicio .tittle {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.7vw;
+	color: #C6A47E;
+	}
+	section .servicio .info {
+	text-align: center;
+	font-size: 1.3vw;
+	}
