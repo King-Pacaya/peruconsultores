@@ -2,88 +2,72 @@ footer {
 position: relative;
 display: flex;
 align-items: center;
-height: 100vh;
+height: 40vh;
 width: 100%;
 background: #121212;
 color: #fff;
 overflow: hidden;
 font-family: 'Raleway', sans-serif;
 }
-.contact, .form {
-position: relative;
-width: 50%;
-height: 70%;
-font-family: 'Raleway', sans-serif;
-}
-	.contact p {
+	footer .contact, footer .social, footer .form {
 	position: relative;
-	margin: 2.5vh 2vw;
-	font-size: 1.4vw;
-	font-family: 'Raleway', sans-serif;
+	width: 35%;
 	}
-	.contact .tittle, .form .tittle {
-	position: relative;
-	font-size: 2vw;
-	text-align: center;
-	margin: 2vh 2vw;
-	font-weight: bold;
-	color: #C6A47E;
-	font-family: 'Raleway', sans-serif;
-	}
-	.contact .social {
-	display: flex;
-	margin: 2vh 2vw;
-	}
-		.contact .social a {
-		width: 100%;
+		footer .contact {
+		margin: 0 0 0 calc((100% - (35% * 2))/2);
+		}
+			footer .contact .info {
+			position: relative;
+			display: flex;
+			height: calc(25vh/4);
+			}
+				footer .contact .info div {
+				position: relative;
+				width: 15%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				overflow: hidden;
+				}
+					footer .contact .info div img {
+					height: 80%;
+					filter: invert(100%);
+					}
+				footer .contact .info p {
+				position: relative;
+				display: flex;
+				align-items: center;
+				height: 100%;
+				font-family: 'Raleway', sans-serif;
+				font-size: 1.4vw;
+				}
+		footer .social {
 		display: flex;
-		align-items: center;
-		justify-content: center;
 		}
-		.contact .social img {
-		width: 20%;
-		filter: invert(75%);
-		transition: 0.2s ease;
+			footer .social a {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			overflow: hidden;
+			height: 25vh;
+			}
+				footer .social a img {
+				width: 40%;
+				filter: invert(70%);
+				transition: 0.2s ease;
+				}
+				footer .social a img:hover {
+				filter: invert(100%);
+				}
+		footer .form {
+		height: 200vh;
+		overflow: hidden;
 		}
-		.contact .social img:hover {
-		filter: invert(100%);
-		}
-	.form form {
-	position: relative;
-	}
-		.form form label {
-		position: relative;
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		padding: 1vh 0;
-		font-size: 1.4vw;
-		font-family: 'Raleway', sans-serif;
-		}
-		.form form input, .form form textarea {
-		position: relative;
-		display: block;
-		margin: 0 auto;
-		text-align: center;
-		align-items: center;
-		font-size: 1.4vw;
-		background-color: transparent;
-		outline: none;
-		color: #C6A47E;
-		font-family: 'Raleway', sans-serif;
-		border: solid #C6A47E 2px;
-		padding: 1vh 1vw;
-		}
-		.form button {
-		position: relative;
-		display: block;
-		margin: 1.5vh auto;
-		border-radius: 10px;
-		cursor: pointer;
-		background-color: #C6A47E;
-		color: #000;
-		font-weight: bold;
-		font-size: 1.4vw;
-		font-family: 'Raleway', sans-serif;
-		padding: 1vh 1vw;
-		}
+			footer .form iframe {
+			height: 230vh;
+			outline: none;
+			border: none;
+			width: 100%;
+			overflow: hidden;
+			}
